@@ -1,0 +1,118 @@
+.menu ul li .movile {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+.mainHeader {
+  background-color: black;
+  position: sticky;
+  display: flex;
+  justify-content: space-around;
+  border-color: azure;
+  border-style: groove;
+  padding: 0px;
+  margin: 0px;
+  height: 70px; }
+  .mainHeader .tituloPrincipal {
+    color: azure;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  .mainHeader .topMenu ul li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px; }
+    .mainHeader .topMenu ul li .headerImg {
+      background-color: aliceblue;
+      width: 30px;
+      padding: 9px;
+      margin: 1px;
+      border-radius: 20px; }
+  .mainHeader .topMenu ul li:hover {
+    transform: scale(1.2); }
+
+
+
+footer .derechos {
+  font-size: 26px; }
+
+footer .footUpImg {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 26px; }
+
+@media only screen and (min-width: 600px) {
+  .mainHeader {
+    height: 75px; }
+    .mainHeader .tituloPrincipal {
+      font-size: 45px; }
+    .mainHeader .topMenu ul li .headerImg {
+      width: 40px;
+      padding: 10px;
+      border-radius: 15px; }
+  .menu {
+    padding: 20px;
+    margin: 1px; }
+    .menu ul li {
+      border-radius: 38px;
+      padding: 12px;
+      margin: 15px; }
+      .menu ul li .mainImg {
+        width: 350px;
+        display: flex; }
+      .menu ul li .mainImg:hover {
+        transform: scale(1.15); }
+      .menu ul li .movile {
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 35px; }
+  footer .derechos {
+    font-size: 30px; }
+  footer .footUpImg {
+    margin-top: 18px;
+    margin-left: 45px;
+    width: 35px; } }
+
+@media only screen and (min-width: 1200px) {
+  .mainHeader {
+    height: 80px; }
+    .mainHeader .tituloPrincipal {
+      font-size: 50px; }
+    .mainHeader .topMenu ul li .headerImg {
+      width: 50px;
+      padding: 10px;
+      border-radius: 14px; }
+  .menu {
+    padding: 20px;
+    margin: 1px; }
+    .menu ul li {
+      border-radius: 38px;
+      padding: 12px;
+      margin: 15px; }
+      .menu ul li .mainImg {
+        width: 470px;
+        display: flex; }
+      .menu ul li .mainImg:hover {
+        transform: scale(1.1);
+        border-radius: 50px; }
+      .menu ul li .movile {
+        display: none; }
+  footer .derechos {
+    font-size: 40px; }
+  footer .footUpImg {
+    margin-top: 15px;
+    margin-left: 200px;
+    width: 60px; } }
+
+.bodyProducts {
+  background-color: black; }
+  .bodyProducts .pName {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    margin: 1rem;
+    color: aliceblue; }
+  .bodyProducts .tarjeta {
+    margin: 15px; }
+
