@@ -27,6 +27,7 @@ const productos =[product1, product2,product3];*/
 
 
 //filter
+/*
 const resultado = busos.filter((el) => el.nombre.includes("Attack"))
 const resultado2 = busos.filter((el) => el.nombre.includes("Naruto"))
 const resultado3 = busos.filter((el) => el.nombre.includes("Tokyo"))
@@ -34,7 +35,7 @@ const resultado3 = busos.filter((el) => el.nombre.includes("Tokyo"))
 console.log(resultado);
 console.log(resultado2);
 console.log(resultado3);
-
+*/
 //array carrito
 const carrito=[];
 
