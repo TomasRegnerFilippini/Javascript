@@ -1,5 +1,5 @@
 let showAllProducts= document.getElementById("showAllProducts")
-
+let cart;
 
 //filter
 /*
@@ -31,6 +31,7 @@ const carrito=[];
         buyButton.addEventListener("click",function(){
             carrito.push(product)
             alert("agregaste" + product.name + "al carrito")
+            localStorage.setItem("carrito", JSON.stringify(cart))
         })
     }
     )
@@ -38,3 +39,13 @@ const carrito=[];
 
   mostrarProductos()
   console.log(carrito)
+
+  if(JSON.parse(localStorage.getItem("carrito"))){
+    cart = JSON.parse(localStorage.getItem("carrito"))
+  }
+  else{
+    localStorage.setItem("carrito", JSON.stringify([]))
+    cart = JSON.parse(localStorage.getItem("carrito"))
+  }
+
+  
