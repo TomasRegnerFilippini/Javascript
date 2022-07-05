@@ -1,4 +1,4 @@
-let showAllProducts= document.getElementById("showAllProducts")
+/*let showAllProducts= document.getElementById("showAllProducts")
 let cart;
 
 //filter
@@ -10,7 +10,7 @@ const resultado3 = busos.filter((el) => el.nombre.includes("Tokyo"))
 console.log(resultado);
 console.log(resultado2);
 console.log(resultado3);
-*/
+
 //array carrito
 const carrito=[];
 
@@ -47,5 +47,5 @@ const carrito=[];
     localStorage.setItem("carrito", JSON.stringify([]))
     cart = JSON.parse(localStorage.getItem("carrito"))
   }
-
+*/
   
