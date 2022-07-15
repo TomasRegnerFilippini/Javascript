@@ -49,3 +49,38 @@ const carrito=[];
   }
 */
   
+/*let data;
+fetch('catalogo.json')
+    .then(response => response.json())
+    
+    .catch(error => console.error(error))
+
+const fetchLocal = async () => {
+    try {
+        const response = await fetch('catalogo.json');
+        const data = await response.json();
+        productos = data;
+
+    } catch (error) {
+        console.error(error);
+    }
+  }
+  console.log(data)
+productos = [data]
+console.log(productos)*/
+
+/*function cargarJSON() {
+  fetch("catalogo.json")
+  .then(function(result){
+      return result.json();
+  })
+    .then(function(t){
+
+      fetch("catalogo.json")
+      .then((response) => response.json())
+      .then((data) => {
+        console.log("2"+data)
+    })
+   })
+   data = data;
+}*/
