@@ -1,24 +1,22 @@
 let carrito
 let productos = [];
 let data;
-fetch('catalogo.json')
-    .then(response => response.json())
-    
-    .catch(error => console.error(error))
 
 const fetchLocal = async () => {
     try {
         const response = await fetch('catalogo.json');
         const data = await response.json();
+        console.log(data)
         productos = data;
+        desplegarProductos()
 
     } catch (error) {
         console.error(error);
     }
   }
-  console.log(data)
-productos = [data]
-console.log(productos)
+fetchLocal();
+
+
 
 
 
@@ -59,7 +57,7 @@ function desplegarProductos() {
   }
 }
 
-desplegarProductos()
+
 
 function agregarAlCarrito(e) {
   const btn = e.target
