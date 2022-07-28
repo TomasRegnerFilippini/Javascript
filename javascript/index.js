@@ -34,12 +34,12 @@ function desplegarProductos() {
     const { id, name, price, img } = element
     const card = `
         <div class="card">
-            <p>${name}</p>
+            <p class="pNombre">${name}</p>
             <div>
                 <img class='imgProducto' src=${img} alt=""/>
             </div>
             <div>
-                <p>$${price}</p>
+                <p class ="pPrice">$${price}</p>
             </div>
             <div class="btn-container">
                 <button id=${id} class='btnAgregar'>AGRGEGAR AL CARRITO</button>

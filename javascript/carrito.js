@@ -7,7 +7,7 @@ if(JSON.parse(localStorage.getItem('carrito'))){
 }
 
 const totalCarrito = () => {
-    return carrito.reduce((acc, prod) => acc + prod.precio * prod.cantidad, 0)
+    return carrito.reduce((acc, prod) => acc + prod.price * prod.cantidad, 0)
 }
 
 const body = document.getElementById('carrito');
@@ -56,15 +56,16 @@ if(carrito.length == 0){
     const tbody = document.getElementById('tbody')
     for (let i = 0; i < carrito.length; i++) {
         const element = carrito[i];
-        const {id, nombre, img, precio, cantidad} = element
+        const {id, name, img, price, cantidad} = element
         const cart = `
             <tr id=${id}>
-                <th><img class='trash' src='./multimedia/trash.png' alt='foto de borrar'></th>
-                <th class='detallesTabla'><img class='imgProdCart' src=${img} alt='foto del producto'><span class='nombreProd'>${nombre}</span></th>
-                <th>${cantidad}</th>
-                <th>$${(cantidad * precio).toLocaleString()}</th>
+                <th><img class='trash cartText' src='./multimedia/trash.png' alt='cambiar esta img'></th>
+                <th class='detallesTabla'><img class='imgProdCart cartText' src=${img} alt='foto del producto'><span class='nombreProd cartText'>${name}</span></th>
+                <th class ="cartText">${cantidad}</th>
+                <th class="cartText">$${(cantidad * price).toLocaleString()}</th>
             </tr>`
             tbody.innerHTML += cart 
+            
     }
     
 }
