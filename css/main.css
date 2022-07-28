@@ -116,5 +116,17 @@ footer .footUpImg {
   .bodyProducts .tarjeta {
     margin: 15px; }
 
+/*--------------------------------------productos----------------------------*/
+.card{
+  display: flex;
+  justify-content: center;
 
+}
+.imgProducto{
+  width: 250px;
+ 
+   
+  
+ 
+}
   
