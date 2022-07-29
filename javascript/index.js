@@ -33,7 +33,7 @@ function desplegarProductos() {
     const element = productos[i]
     const { id, name, price, img } = element
     const card = `
-        <div class="card">
+        <div class="card ">
             <p class="pNombre">${name}</p>
             <div>
                 <img class='imgProducto' src=${img} alt=""/>
@@ -68,7 +68,7 @@ function agregarAlCarrito(e) {
   Swal.fire({
     position: 'top',
     icon: 'success',
-    title: 'agregaste'+ productos.name +'al carrito',
+    title: 'Agregado al Carrito',
     showConfirmButton: false,
     timer: 1500
   })

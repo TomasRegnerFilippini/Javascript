@@ -117,10 +117,19 @@ footer .footUpImg {
     margin: 15px; }
 
 /*--------------------------------------productos----------------------------*/
+
+.dPrinci{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20;
+  margin-top: 30px;
+}
 .card{
-  border-radius: 10px;
+  max-width: 401px;
+  margin-bottom: 50px;
+  border-radius: 5px;
   text-align: center;
-  
+ 
   
 }
 
@@ -159,11 +168,17 @@ footer .footUpImg {
 .tableContainer{
   display: flex;
   justify-content: center;
+  background-color: #252e38;
   
+}
+.cartContainer{
+  background-color: #252e38;
+  padding: 2px;
 }
 
 .cartText{
   color: white;
+  
 }
 
 
@@ -171,6 +186,11 @@ table{
   border-radius: 5px;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+.txtCarrito{
+  color: white;
 }
 
 table tr th:first-child{
@@ -244,13 +264,18 @@ th{
 .txtTotal{
   text-align: right;
   padding: 10px;
+  
 }
 
 .txtTabla{
   padding: 10px;
   font-size: 20px;
+  
 }
-
+.btn-container{
+  background-color: #252e38;
+  
+}
 .btnTerminar{
   padding: 10px 20px;
   border-radius: 25px;
@@ -259,10 +284,16 @@ th{
   font-family: Lato-Black;
   transition: 0.5s ease;
   border: none;
+  
 }
 
 .btnTerminar:hover{
   color: #E9EEF2;
   background: #dd2313;
+}
+
+.trash{
+  width: 50px;
+  border-radius: 5px;
 }
 

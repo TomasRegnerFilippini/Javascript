@@ -2,23 +2,144 @@
 {
     "id": "1",
     "category": "buzos",
-    "name": "buzo attack on titan",
+    "name": "Buzo Attack on Titan",
     "price": "2500",
     "img":"./img/buzos.jpg"
 }, 
 {
     "id": "2",
     "category": "buzos",
-    "name": "buzo Naruto",
+    "name": "Buzo Naruto",
     "price": "2600",
     "img":"./img/buzos2.jpg"
 },
 {
     "id": "3",
     "category": "buzos",
-    "name": "buzo tokyo",
+    "name": "Buzo Tokyo",
     "price": "2400",
     "img":"./img/buzos3.jpg"
+},
+
+{
+    "id": "4",
+    "category": "remeras",
+    "name": "Remera Saitama",
+    "price": "1200",
+    "img":"./img/remera.jpg"
+},
+
+{
+    "id": "5",
+    "category": "remeras",
+    "name": "Remera L",
+    "price": "1000",
+    "img":"./img/remera2.jpg"
+},
+
+{
+    "id": "6",
+    "category": "remeras",
+    "name": "Remera Shikamaru",
+    "price": "1250",
+    "img":"./img/remera3.jpg"
+},
+
+{
+    "id": "7",
+    "category": "camperas",
+    "name": "Campera Uchiha",
+    "price": "1800",
+    "img":"./img/campera.jpg"
+},
+
+{
+    "id": "8",
+    "category": "camperas",
+    "name": "Campera Goku",
+    "price": "2000",
+    "img":"./img/campera2.jpg"
+},
+
+{
+    "id": "9",
+    "category": "camperas",
+    "name": "Campera Kakashi",
+    "price": "2100",
+    "img":"./img/campera3.jpg"
+},
+
+{
+    "id": "10",
+    "category": "pantalones",
+    "name": "Pantalon Manga Naruto",
+    "price": "1700",
+    "img":"./img/pantalon.jpg"
+},
+
+{
+    "id": "11",
+    "category": "pantalones",
+    "name": "Pantalon Demon Slayer",
+    "price": "1600",
+    "img":"./img/pantalon2.jpg"
+},
+
+{
+    "id": "12",
+    "category": "pantalones",
+    "name": "Pantalon Naruto",
+    "price": "1650",
+    "img":"./img/pantalon3.jpg"
+},
+
+{
+    "id": "13",
+    "category": "calzado",
+    "name": "Zapatillas Demon Slayer",
+    "price": "4000",
+    "img":"./img/zapas.jpg"
+},
+
+{
+    "id": "14",
+    "category": "calzado",
+    "name": "Zapatillas Dragon Ball Super",
+    "price": "4200",
+    "img":"./img/zapas2.jpg"
+},
+
+{
+    "id": "15",
+    "category": "calzado",
+    "name": "Zapatillas Naruto",
+    "price": "4100",
+    "img":"./img/zapas3.jpg"
+},
+
+{
+    "id": "16",
+    "category": "Accesorios",
+    "name": "Gorra Pokemon",
+    "price": "1100",
+    "img":"./img/accesorios.jpg"
+},
+
+{
+    "id": "17",
+    "category": "Accesorios",
+    "name": "Llavero All Might",
+    "price": "700",
+    "img":"./img/accesorios2.jpg"
+},
+
+{
+    "id": "18",
+    "category": "Accesorios",
+    "name": "Libreta Death Note",
+    "price": "1500",
+    "img":"./img/accesorios3.jpg"
 }
+
 
 ]

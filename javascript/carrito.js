@@ -59,7 +59,7 @@ if(carrito.length == 0){
         const {id, name, img, price, cantidad} = element
         const cart = `
             <tr id=${id}>
-                <th><img class='trash cartText' src='./multimedia/trash.png' alt='cambiar esta img'></th>
+                <th><img class='trash ' src='../img/trash.jpg' alt=''></th>
                 <th class='detallesTabla'><img class='imgProdCart cartText' src=${img} alt='foto del producto'><span class='nombreProd cartText'>${name}</span></th>
                 <th class ="cartText">${cantidad}</th>
                 <th class="cartText">$${(cantidad * price).toLocaleString()}</th>
